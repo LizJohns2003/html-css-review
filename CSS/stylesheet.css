@@ -21,6 +21,7 @@ body{
 #company{
     color: #dec9e9;
     font-size: 1.5rem;
+    justify-content: left;
 }
 
 #hero-banner{}
@@ -28,14 +29,26 @@ body{
 #welcome{
     background-color: blueviolet;
     color: #fff;
-}
+    padding: 5%;
+    margin-bottom: 0%;
+    }
+
+    #welcome>p{
+        margin-right: 50%;
+    }
 
 #fan-favs{
     color: #dec9e9;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+  
+    
 }
 #our-team{
     background-color: purple;
+    text-align: center;
+    color: white;
 }
 
 #header{
@@ -46,6 +59,7 @@ body{
 #footer{
     background-color: black;
     color: #fff;
+    padding: 2%;
 }
 
 nav ul{
@@ -75,5 +89,29 @@ nav ul li a:focus{
 }
 
 div.team-grid{
+text-align: center;
+display: grid;
+grid-template-columns: auto auto;
+}
+
+
+
+div.team-grid>img{
+    filter: grayscale(100%);
+    border-radius: 5%;
+}
+
+
+#navigation-bar{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end; 
+    padding: 1%;
+    margin-bottom: 0%;
 
 }
+
+a{
+    text-decoration: none;
+}
+
